@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invasión Espacial</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Invasión Espacial</h1>
+    <!-- Mostrar el puntaje actual -->
+    <div id="score">Puntaje: 0</div>
+    <!-- Botón para comenzar el juego -->
+    <button id="startBtn">Comenzar</button>
+    <!-- Área de juego -->
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <!-- Contenedor para mensajes de fin de juego -->
+    <div id="gameOver" class="hidden">
+      <h2>Game Over</h2>
+      <p id="finalScore"></p>
+      <button id="restartBtn">Reiniciar</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
